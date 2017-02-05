@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>CS3251 Software Patterns</title>
+    <style></style>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body id="preview">
+<h1><a id="Patterns_0"></a>Patterns</h1>
+<h5><a id="author_Patrick_Pei__githubcompatrickkerrypei_1"></a>@author Patrick Pei / <a
+        href="http://github.com/patrickkerrypei">github.com/patrickkerrypei</a></h5>
+<h3><a id="Adapter_3"></a>Adapter</h3>
+<ul>
+    <li>Intent
+        <ul>
+            <li>Convert class interface into one expected by clients</li>
+            <li>Emphasis on common interace, adapts current implementation</li>
+        </ul>
+    </li>
+    <li>Applicability
+        <ul>
+            <li>When there’s a need to use an existing class but interface doesn’t match</li>
+            <li>When a class should be reusable to comply with <em>unrelated</em> and <em>unforeseen</em> classes</li>
+            <li>When there’s a need to use several existing subclasses but not practical to adapt interfaces by
+                subclassing each (there could be many of them)
+            </li>
+        </ul>
+    </li>
+    <li>Consequences
+        <ul>
+            <li>(+) Single adapter works with many adaptees</li>
+            <li>(-) Can make it harder to override Adaptee behavior</li>
+        </ul>
+    </li>
+    <li>Considerations
+        <ul>
+            <li>How much adapting</li>
+        </ul>
+    </li>
+    <li>Implementation (C++)
+        <ul>
+            <li>template class, accepts objects and function pointers</li>
+        </ul>
+    </li>
+</ul>
+<h3><a id="Observer_19"></a>Observer</h3>
+<ul>
+    <li>Intent
+        <ul>
+            <li>Define a one-to-many dependency between objects so that when one object changes state, all dependents
+                are notified and updated
+            </li>
+        </ul>
+    </li>
+    <li>Applicability
+        <ul>
+            <li>Two aspects: one dependent on other</li>
+            <li>A change to one = change to many</li>
+            <li>An object should notify unknown other objects</li>
+        </ul>
+    </li>
+    <li>Consequences
+        <ul>
+            <li>(+) Modularity: subject and observers vary independently</li>
+            <li>(+) Extensibility: can define and add any number of observers</li>
+            <li>(-) Unexpected updates: observers do not know about each other</li>
+            <li>(-) Update overhead</li>
+        </ul>
+    </li>
+    <li>Implementation (C++)
+        <ul>
+            <li>Classes have to explicitly accept and conditionally update</li>
+        </ul>
+    </li>
+</ul>
+<h3><a id="Singleton_34"></a>Singleton</h3>
+<ul>
+    <li>Intent
+        <ul>
+            <li>Ensure a class only ever has one instance and provide a global point of access</li>
+        </ul>
+    </li>
+    <li>Applicability
+        <ul>
+            <li>When there must be exactly one instance of a class, and it must be accessible from a well-known access
+                point
+            </li>
+        </ul>
+    </li>
+    <li>Consequences
+        <ul>
+            <li>(+) Reduces namespace pollution</li>
+            <li>(-) Implementation may be less efficient than a global</li>
+        </ul>
+    </li>
+    <li>Implementation (C++)
+        <ul>
+            <li>Static instance</li>
+            <li>Regstering/deleting instance</li>
+        </ul>
+    </li>
+</ul>
+<h3><a id="Composite_46"></a>Composite</h3>
+<ul>
+    <li>Intent
+        <ul>
+            <li>Treat individual objects and multiple, recursively-composed objects uniformly</li>
+        </ul>
+    </li>
+    <li>Applicability
+        <ul>
+            <li>Objects composed recursively and treated uniformly</li>
+        </ul>
+    </li>
+    <li>Consequences
+        <ul>
+            <li>(+) Uniformity: treat components the same regardless of complexity</li>
+            <li>(+) Extensibility: new Component subclasses work wherever old ones do<br>
+                – (-) Overhead: might be prohibitive as the number of objects increases
+            </li>
+        </ul>
+    </li>
+    <li>Implementation (C++)
+        <ul>
+            <li>Component is an abstract base class</li>
+            <li>Composites subclass Component</li>
+        </ul>
+    </li>
+</ul>
+<h3><a id="Interpreter_59"></a>Interpreter</h3>
+<ul>
+    <li>Intent
+        <ul>
+            <li>Given a language, define a representation for its grammar along with an interpreter that uses the
+                representation to interpret sentences in the language
+            </li>
+        </ul>
+    </li>
+    <li>Applicability
+        <ul>
+            <li>When grammar is simple and relatively stable</li>
+            <li>When efficiency is not critical</li>
+        </ul>
+    </li>
+    <li>Consequences
+        <ul>
+            <li>(+) Simple grammars are easy to change and extend, e.g., all rules epresented by distinct classes in an
+                orderly manner
+            </li>
+            <li>(+) Adding another rule adds another class</li>
+            <li>(-) Complex grammars are hard to implement and maintain, e.g., more interdependent rules yield more
+                interdependent classes
+            </li>
+        </ul>
+    </li>
+    <li>Implementation (C++)
+        <ul>
+            <li>(+/-) Express language rules (one per class)</li>
+            <li>Create interpret method to lead the context through the interpretation classes</li>
+        </ul>
+    </li>
+</ul>
+<h3><a id="Builder_73"></a>Builder</h3>
+<ul>
+    <li>Intent
+        <ul>
+            <li>Separate the construction of a complex object from its representation so that the same construction
+                process can create different representations
+            </li>
+        </ul>
+    </li>
+    <li>Applicability
+        <ul>
+            <li>Need to isolate knowledge of the creation of a complex object from its parts</li>
+            <li>Need to allow different implementations/interfaces of an object’s parts</li>
+        </ul>
+    </li>
+    <li>Consequences
+        <ul>
+            <li>(+) Can vary a product’s internal representation</li>
+            <li>(+) Isolates code for construction and representation</li>
+            <li>(+) Finer control over the construction process</li>
+            <li>(-) May involve lots of classes</li>
+        </ul>
+    </li>
+    <li>Implementation (C++)
+        <ul>
+            <li>Separate classes for representation and construction</li>
+        </ul>
+    </li>
+</ul>
+<h3><a id="Bridge_87"></a>Bridge</h3>
+<ul>
+    <li>Intent
+        <ul>
+            <li>Separate a (logical) abstraction interface from its (physical) implementation(s)</li>
+        </ul>
+    </li>
+    <li>Applicability
+        <ul>
+            <li>When interface and implementation should vary independently</li>
+            <li>Require a uniform interface to interchangeable class hierarchies</li>
+        </ul>
+    </li>
+    <li>Consequences
+        <ul>
+            <li>(+) Abstraction interface and implementation are independent</li>
+            <li>(-) One-size-fits-all Abstraction and Implementor interfaces</li>
+        </ul>
+    </li>
+    <li>Implementation (C++)
+        <ul>
+            <li>Sharing Implementors and reference counting</li>
+            <li>Often use factories</li>
+        </ul>
+    </li>
+</ul>
+<h3><a id="Iterator_100"></a>Iterator</h3>
+<ul>
+    <li>Intent
+        <ul>
+            <li>Access elements of a aggregate (container) without exposing its representation</li>
+        </ul>
+    </li>
+    <li>Applicability
+        <ul>
+            <li>Require multiple traversal algorithms over an aggregate</li>
+            <li>Require a uniform traversal interface over different aggregates</li>
+            <li>When aggregate classes and traversal algorithm must vary independently</li>
+        </ul>
+    </li>
+    <li>Consequences
+        <ul>
+            <li>(+) Flexibility: aggregate and traversal are independent</li>
+            <li>(-) Additional communication overhead between iterator and aggregate</li>
+        </ul>
+    </li>
+    <li>Implementation (C++)
+        <ul>
+            <li>Just follow the interface</li>
+        </ul>
+    </li>
+</ul>
+<h3><a id="Visitor_113"></a>Visitor</h3>
+<ul>
+    <li>Intent
+        <ul>
+            <li>Centralize operations on an object structure so that they can vary independently but still behave
+                polymorphically
+            </li>
+        </ul>
+    </li>
+    <li>Applicability
+        <ul>
+            <li>When classes define many unrelated operations</li>
+            <li>Class relationships of objects in the structure rarely change, but the operations on them change often
+            </li>
+            <li>Algorithms keep state that is updated during traversal</li>
+        </ul>
+    </li>
+    <li>Consequences
+        <ul>
+            <li>(+) Flexibility: visitor algorithms and object structure are independent</li>
+            <li>(-) Circular dependency between Visitor and Element interfaces</li>
+            <li>(-) Visitor brittle to new ConcreteElement classes</li>
+        </ul>
+    </li>
+    <li>Implementation (C++)
+        <ul>
+            <li>General interface to elements of object structure</li>
+        </ul>
+    </li>
+</ul>
+<h3><a id="Command_127"></a>Command</h3>
+<ul>
+    <li>Intent
+        <ul>
+            <li>Encapsulate the request for a service</li>
+        </ul>
+    </li>
+    <li>Applicability
+        <ul>
+            <li>Parameterize objects with action to perform</li>
+            <li>Specify, queue, and execute at different times</li>
+            <li>Multilevel undo / redo</li>
+        </ul>
+    </li>
+    <li>Consequences
+        <ul>
+            <li>(+) Abstracts executor of a service</li>
+            <li>(+) Supports arbitrary-level undo-redo</li>
+            <li>(-) Excessive memory may be needed to support undo/redo operations</li>
+        </ul>
+    </li>
+    <li>Implementation (C++)
+        <ul>
+            <li>Classes for each command</li>
+        </ul>
+    </li>
+</ul>
+<h3><a id="Factory_141"></a>Factory</h3>
+<ul>
+    <li>Intent
+        <ul>
+            <li>Provide an interface for creating an object, but leave the choice of the object’s concrete type to a
+                subclass
+            </li>
+        </ul>
+    </li>
+    <li>Applicability
+        <ul>
+            <li>When a class cannot anticipate the objects it must create or a class wants its subclasses to specify the
+                objects it creates
+            </li>
+        </ul>
+    </li>
+    <li>Consequences
+        <ul>
+            <li>(+) Flexibility: don’t have to specify class type and creation details</li>
+            <li>(+) Client only dependent on inteface</li>
+            <li>(-) Construction of objects requires one additional class in some cases</li>
+        </ul>
+    </li>
+    <li>Implementation (C++)
+        <ol>
+            <li>Creator class is abstract (does not implement creation)
+                <ul>
+                    <li><strong>must</strong> be subclassed</li>
+                </ul>
+            </li>
+            <li>Concrete and provides implementation
+                <ul>
+                    <li><strong>can</strong> be subclassed</li>
+                </ul>
+            </li>
+        </ol>
+    </li>
+</ul>
+<h3><a id="Abstract_factory_156"></a>Abstract factory</h3>
+<ul>
+    <li>Intent
+        <ul>
+            <li>Creates families of related objects without specifying subclass</li>
+        </ul>
+    </li>
+    <li>Applicability
+        <ul>
+            <li>When clients cannot anticipate groups of classes to instantiate</li>
+        </ul>
+    </li>
+    <li>Consequences
+        <ul>
+            <li>(+) Even more flexibility</li>
+            <li>(-) Hard to extend factory interface to create new products</li>
+        </ul>
+    </li>
+    <li>Implementation (C++)
+        <ul>
+            <li>Factory of factories</li>
+        </ul>
+    </li>
+</ul>
+<h3><a id="State_167"></a>State</h3>
+<ul>
+    <li>Intent
+        <ul>
+            <li>Allow object to alter behavior depending on internal state</li>
+        </ul>
+    </li>
+    <li>Applicability
+        <ul>
+            <li>When an object must change its behavior at run-time depending on which state it is in</li>
+            <li>When several operations have the same large multipart conditional structure that depends on the object’s
+                state
+            </li>
+        </ul>
+    </li>
+    <li>Consequences
+        <ul>
+            <li>(+) Localizes state-specific behavior and partitions behavior for different states</li>
+            <li>(+) Makes state transitions explicit</li>
+            <li>(+) State objects can be shared</li>
+            <li>(-) Can result in lots of subclasses that are hard to understand</li>
+        </ul>
+    </li>
+    <li>Implementation (C++)
+        <ul>
+            <li>Hash table based</li>
+        </ul>
+    </li>
+</ul>
+<h3><a id="Template_whitebox_181"></a>Template (whitebox)</h3>
+<ul>
+    <li>Intent
+        <ul>
+            <li>Provide a skeleton of an algorithm in a method, deferring some steps to subclasses</li>
+        </ul>
+    </li>
+    <li>Applicability
+        <ul>
+            <li>Implement invariant aspects of an algorithm once and let subclasses define variant parts</li>
+            <li>Localize common behavior in a class to increase code reuse</li>
+            <li>Control subclass extensions</li>
+        </ul>
+    </li>
+    <li>Consequences
+        <ul>
+            <li>(+) Leads to inversion of control (“Hollywood principle”: do not call us – we will call you)</li>
+            <li>(+) Code reuse</li>
+            <li>(-) <strong>Must</strong> subclass</li>
+        </ul>
+    </li>
+    <li>Implementation (C++)
+        <ul>
+            <li>Dynamic binding…</li>
+            <li>This is just subclassing</li>
+        </ul>
+    </li>
+</ul>
+<h3><a id="Strategy_blackbox_196"></a>Strategy (blackbox)</h3>
+<ul>
+    <li>Intent
+        <ul>
+            <li>Define a family of algorithms, encapsulate each one, and make them interchangeable to let clients and
+                algorithms vary independently from the clients that use it.
+            </li>
+        </ul>
+    </li>
+    <li>Applicability
+        <ul>
+            <li>When an object should be configurable with one of many algorithms
+                <ul>
+                    <li><strong>all</strong> algorithms can be encapsulated</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>Consequences
+        <ul>
+            <li>(+) Flexibility, reuse</li>
+            <li>(+) Change algorithms dynamically</li>
+            <li>(-) Strategy creation and comunication overhead</li>
+            <li>(-) Inflexible strategy interface</li>
+        </ul>
+    </li>
+    <li>Implementation (C++)
+        <ul>
+            <li>Static strategy selection via parameterized types</li>
+        </ul>
+    </li>
+</ul>
+<h3><a id="Reactor_210"></a>Reactor</h3>
+<ul>
+    <li>Intent
+        <ul>
+            <li>Demux for event handling</li>
+        </ul>
+    </li>
+    <li>Applicability
+        <ul>
+            <li>Need to react to events…</li>
+        </ul>
+    </li>
+    <li>Consequences</li>
+    <li>Implementation (C++)</li>
+</ul>
+<h1><a id="Expression_Tree_219"></a>Expression Tree</h1>
+<h3><a id="Adapter_220"></a>Adapter</h3>
+<ul>
+    <li>Using for each loops (really…)</li>
+</ul>
+<h3><a id="Observer_222"></a>Observer</h3>
+<ul>
+    <li>RefCounter</li>
+</ul>
+<h3><a id="Singleton_224"></a>Singleton</h3>
+<ul>
+    <li>Options, Reactor</li>
+</ul>
+<h3><a id="Composite_226"></a>Composite</h3>
+<ul>
+    <li>Building the tree (Component_Node)</li>
+</ul>
+<h3><a id="Interpreter_228"></a>Interpreter</h3>
+<ul>
+    <li>Parsing the text</li>
+</ul>
+<h3><a id="Builder_230"></a>Builder</h3>
+<ul>
+    <li>Creating expression tree</li>
+</ul>
+<h3><a id="Bridge_232"></a>Bridge</h3>
+<ul>
+    <li>Having a common interface (command is an example)</li>
+</ul>
+<h3><a id="Iterator_Visitor_234"></a>Iterator Visitor</h3>
+<ul>
+    <li>PrintVisitor, EvaluationVisitor</li>
+</ul>
+<h3><a id="Command_236"></a>Command</h3>
+<ul>
+    <li>Actually executing commands…</li>
+</ul>
+<h3><a id="Factory_238"></a>Factory</h3>
+<ul>
+    <li>Creating commands</li>
+</ul>
+<h3><a id="Abstract_factory_240"></a>Abstract factory</h3>
+<ul>
+    <li>Creating command factory (only made 1)</li>
+</ul>
+<h3><a id="State_242"></a>State</h3>
+<ul>
+    <li>Handing when expr when uninitialized</li>
+</ul>
+<h3><a id="Template_whitebox_244"></a>Template (whitebox)</h3>
+<ul>
+    <li>EventHandler</li>
+</ul>
+<h3><a id="Strategy_blackbox_246"></a>Strategy (blackbox)</h3>
+<ul>
+    <li>EventHandler</li>
+</ul>
+<h3><a id="Reactor_248"></a>Reactor</h3>
+<ul>
+    <li>Reactor</li>
+</ul>
+<h3><a id="NOTES_LAYOUT_261"></a>NOTES LAYOUT</h3>
+<ul>
+    <li>Intent</li>
+    <li>Applicability</li>
+    <li>Consequences</li>
+    <li>Implementation (C++)</li>
+</ul>
+<h2><a id="Creation_patterns_267"></a>Creation patterns</h2>
+<ul>
+    <li>Composite, Builder, Interpreter</li>
+</ul>
+<h2><a id="Old_270"></a>Old:</h2>
+<ul>
+    <li>
+        <p>Singleton</p>
+        <ul>
+            <li>Single instance</li>
+            <li>Examples
+                <ul>
+                    <li>Options</li>
+                    <li>Reactor</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <p>Factory</p>
+        <ul>
+            <li>Provide an interface for creating an object, but leave the choice of the object’s concrete type to a
+                subclass
+            </li>
+            <li>Examples
+                <ul>
+                    <li>Uninitialized state factory</li>
+                    <li>Expression tree event handler</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <p>State</p>
+        <ul>
+            <li>Allow an object to alter its behavior when its internal state changes the object will appear to change
+                its class
+            </li>
+        </ul>
+    </li>
+</ul>
+
+</body>
+</html>
