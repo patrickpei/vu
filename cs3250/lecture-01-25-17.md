@@ -3,7 +3,8 @@
 ## Weak Connectivity
 - Underlying undirected graph is connected 
 - 
-## Mystery (won't say name because hw) connectivity 
+## ??? connectivity 
+- Won't give name because there's a homework problem on it
 - For each pair of vertices, there is a path between them
 
 ## Strong Connectivity

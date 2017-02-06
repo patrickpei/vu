@@ -1,3 +1,4 @@
 # Vanderbilt University
 
-### CS3250: Algorithms - Professor Jeremy Spinrad
+## Courses
+- [CS3250: Algorithms - Professor Jeremy Spinrad](./cs3250)
