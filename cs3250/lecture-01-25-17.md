@@ -2,7 +2,7 @@
 
 ## Weak Connectivity
 - Underlying undirected graph is connected 
-- 
+
 ## ??? connectivity 
 - Won't give name because there's a homework problem on it
 - For each pair of vertices, there is a path between them
