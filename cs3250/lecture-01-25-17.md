@@ -1,13 +1,9 @@
----
-layout: default
----
-
 # Lecture 1-25-17 (Digraphs)
 
 ## Weak Connectivity
 - Underlying undirected graph is connected 
 - 
-## Mystery(won't say name because hw) connectivity 
+## Mystery (won't say name because hw) connectivity 
 - For each pair of vertices, there is a path between them
 
 ## Strong Connectivity
