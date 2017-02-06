@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Lecture 1-25-17 (Digraphs)
 
 ## Weak Connectivity
