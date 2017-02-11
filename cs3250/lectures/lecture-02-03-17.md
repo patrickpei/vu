@@ -64,7 +64,7 @@
 - Worth learning because
     - Cover's *union find algorithm*
 
-## Solin's Algorithm
+## Sollin's Algorithm
 - Would be faster than O(mn)
 - Natural implementation: O(mlogn)
 - Boruvka: Czech railroad engineer in the 1920's
