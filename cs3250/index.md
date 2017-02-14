@@ -14,8 +14,9 @@
 - [lecture-02-06-17](./lectures/lecture-02-06-17.md)
 - [lecture-02-08-17](./lectures/lecture-02-08-17.md)
 - [lecture-02-10-17](./lectures/lecture-02-10-17.md)
+- [lecture-02-13-17](./lectures/lecture-02-13-17.md)
 
 ## Take Home Exams / Homework
-- [homework-1-blank](./homework-1-blank.pdf)
-- [homework-2-blank](./homework-2-blank.pdf)
-- [homework-3-blank](./homework-3-blank.pdf)
+- [homework-1-blank](./homework/homework-1-blank.pdf)
+- [homework-2-blank](./homework/homework-2-blank.pdf)
+- [homework-3-blank](./homework/homework-3-blank.pdf)

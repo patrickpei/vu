@@ -24,7 +24,6 @@ do
     printf -- "- ["                                                  >> index.md
     printf $lecture | cut -d'/' -f 2 | cut -d'.' -f 1 | tr -d '\n'   >> index.md
     printf "](./lectures/"                                           >> index.md
-    printf $lecture | cut -d'/' -f 2
     printf $lecture | cut -d'/' -f 2 | tr -d '\n'                    >> index.md
     printf ")\n"                                                     >> index.md
 done
@@ -38,7 +37,7 @@ for pdf in homework/*blank.pdf
 do
     printf -- "- ["                                             >> index.md
     printf $pdf | cut -d'/' -f 2 | cut -d '.' -f 1 | tr -d '\n' >> index.md
-    printf "](./"                                               >> index.md
+    printf "](./homework/"                                      >> index.md
     printf $pdf | cut -d'/' -f 2 | tr -d '\n'                   >> index.md
     printf ")\n"                                                >> index.md
 done
