@@ -58,7 +58,7 @@
     - Incremental heap building
         - Add next element to tree
         - Bubble up new element
-    - 
+    - Better method
         - Reform heap by moving last element to root
         - But now violated heap property, so bubbling down the root to its correct position
             - When bubbling down, compare with two children and swap with smaller
