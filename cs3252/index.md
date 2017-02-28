@@ -1,7 +1,34 @@
-# CS3252
+# CS3252: Theory of Automata - Professor Xenofon Koutsoukos
 
 ## Lectures
-- 1, 2,
+- 1
+    - Logistics & goals
+- 2
+    - Basic definitions
+- 3
+    - Drawing transition diagrams / tables
+- 4
+    - NFA
+    - Subset construction / lazy evaluation
+- 5
+    - e-NFAs
+- 6 
+    - Intro to RE
+- 7 
+    - Convert RE to e-NFA 
+- 8
+    - Algebraic manipulation of RE
+    - Testing algebraic laws
+- 9
+    - Pumping lemma
+- 10
+    - Closure properties
+    - Homomorphisms???
+- 11
+    - Runtime of representation conversions (DFA to NFA to etc)
+- 12
+    - Equivalence & minimization
+
 
 ## MOOC (Stanford lectures)
 - https://www.youtube.com/channel/UCHuRxy3-6SNP2mQt2MOoWiw/videos
@@ -22,7 +49,7 @@
 - 5 
     - Convert DFA to regex by state elimination method
     - Convert regex to e-NFA's
-    - Eliminate e-transitions from e-NFA's *********************************************
+    - Eliminate e-transitions from e-NFA's
     - Proving equality of regexps
 - 6
     - Pumping lemma
