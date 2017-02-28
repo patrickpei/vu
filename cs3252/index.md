@@ -56,6 +56,15 @@
 - 7
     - Minimum-state equivalent DFA
 
+## Completed Assignments
+- [1](./assignments/assignment-1.pdf)
+- [2](./assignments/assignment-2.pdf)
+- [3](./assignments/assignment-3.pdf)
+- [4](./assignments/assignment-4.pdf)
+- [5](./assignments/assignment-5.pdf)
+- [6](./assignments/assignment-6.pdf)
+- [7](./assignments/assignment-7.pdf)
+
 ## Questions
 - How to catch any number of something in DFA?
     - Ex: 2.5.2c
