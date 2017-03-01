@@ -24,7 +24,7 @@ do
     printf -- "- ["                                                  >> index.md
     printf $lecture | cut -d'/' -f 2 | cut -d'.' -f 1 | tr -d '\n'   >> index.md
     printf "](./lectures/"                                           >> index.md
-    printf $lecture | cut -d'/' -f 2 | tr -d '\n'                    >> index.md
+    printf $lecture | cut -d'/' -f 2 | tr -d '\n' | cut -d '.' -f 1  >> index.md
     printf ")\n"                                                     >> index.md
 done
 printf "\n" >> index.md

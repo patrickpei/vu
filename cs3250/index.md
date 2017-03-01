@@ -1,26 +1,46 @@
 ## CS3250: Algorithms - Professor Jeremy Spinrad
 
 ## Lectures
-- [lecture-01-11-17](./lectures/lecture-01-11-17.md)
-- [lecture-01-13-17](./lectures/lecture-01-13-17.md)
-- [lecture-01-18-17](./lectures/lecture-01-18-17.md)
-- [lecture-01-20-17](./lectures/lecture-01-20-17.md)
-- [lecture-01-23-17](./lectures/lecture-01-23-17.md)
-- [lecture-01-25-17](./lectures/lecture-01-25-17.md)
-- [lecture-01-27-17](./lectures/lecture-01-27-17.md)
-- [lecture-01-30-17](./lectures/lecture-01-30-17.md)
-- [lecture-02-01-17](./lectures/lecture-02-01-17.md)
-- [lecture-02-03-17](./lectures/lecture-02-03-17.md)
-- [lecture-02-06-17](./lectures/lecture-02-06-17.md)
-- [lecture-02-08-17](./lectures/lecture-02-08-17.md)
-- [lecture-02-10-17](./lectures/lecture-02-10-17.md)
-- [lecture-02-13-17](./lectures/lecture-02-13-17.md)
-- [lecture-02-15-17](./lectures/lecture-02-15-17.md)
-- [lecture-02-17-17](./lectures/lecture-02-17-17.md)
-- [lecture-02-20-17](./lectures/lecture-02-20-17.md)
-- [lecture-02-22-17](./lectures/lecture-02-22-17.md)
-- [lecture-02-24-17](./lectures/lecture-02-24-17.md)
-- [lecture-02-27-17](./lectures/lecture-02-27-17.md)
+- [lecture-01-11-17](./lectures/lecture-01-11-17
+)
+- [lecture-01-13-17](./lectures/lecture-01-13-17
+)
+- [lecture-01-18-17](./lectures/lecture-01-18-17
+)
+- [lecture-01-20-17](./lectures/lecture-01-20-17
+)
+- [lecture-01-23-17](./lectures/lecture-01-23-17
+)
+- [lecture-01-25-17](./lectures/lecture-01-25-17
+)
+- [lecture-01-27-17](./lectures/lecture-01-27-17
+)
+- [lecture-01-30-17](./lectures/lecture-01-30-17
+)
+- [lecture-02-01-17](./lectures/lecture-02-01-17
+)
+- [lecture-02-03-17](./lectures/lecture-02-03-17
+)
+- [lecture-02-06-17](./lectures/lecture-02-06-17
+)
+- [lecture-02-08-17](./lectures/lecture-02-08-17
+)
+- [lecture-02-10-17](./lectures/lecture-02-10-17
+)
+- [lecture-02-13-17](./lectures/lecture-02-13-17
+)
+- [lecture-02-15-17](./lectures/lecture-02-15-17
+)
+- [lecture-02-17-17](./lectures/lecture-02-17-17
+)
+- [lecture-02-20-17](./lectures/lecture-02-20-17
+)
+- [lecture-02-22-17](./lectures/lecture-02-22-17
+)
+- [lecture-02-24-17](./lectures/lecture-02-24-17
+)
+- [lecture-02-27-17](./lectures/lecture-02-27-17
+)
 
 ## Take Home Exams / Homework
 - [homework-1-blank](./homework/homework-1-blank.pdf)
