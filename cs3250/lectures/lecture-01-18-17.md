@@ -9,7 +9,7 @@
 
 ## Time complexity
 - Matrix: O(1)
-- Adjacency list: O(n) 
+- Adjacency list: O(n)
     - also can be considered "degree" of vertex
     - faster for finding Euler cycles
 - Space:
