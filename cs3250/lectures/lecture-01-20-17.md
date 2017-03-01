@@ -6,14 +6,14 @@
     - "linear" for a graph
 - Edges wrt tree
     - tree edges
-        - 
+        - edges visited while performing DFS
     - back edges
         - ancestors & descendants
     - cross edges
 - No cross edges wrt dfs tree
 
 ## BFS trees
-    - no edges that are back edges which are tree edges
+- no edges that are back edges which are tree edges
 
 ## Digraph
 - Cross edges in DFS tree (of digraph)
