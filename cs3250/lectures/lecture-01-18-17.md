@@ -6,7 +6,7 @@
     - Adjacency matrix
         - Nodes must be numbered
     - Adjacency lists
-        - 
+
 ## Time complexity
 - Matrix: O(1)
 - Adjacency list: O(n) 
