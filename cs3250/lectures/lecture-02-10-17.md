@@ -59,7 +59,7 @@
     - Tarjan while doing this gave a name of the analysis:
         - Amortized analysis
         - Amortized cost in accounting
-            - Say you're running a business and every 10 years you have to buy a new machien at $100,000
+            - Say you're running a business and every 10 years you have to buy a new machine at $100,000
                 - Profit: $20,000 per year
         - Overall cost over period of time
         - Before collapsing find:

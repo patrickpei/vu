@@ -1,4 +1,4 @@
-# Lecture 1-27-17
+# Lecture 01-27-17
 
 ## Directed acyclic graphs
 - Applications

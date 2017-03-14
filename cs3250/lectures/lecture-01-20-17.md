@@ -1,4 +1,4 @@
-# Lecture 1-20-17
+# Lecture 01-20-17
 
 ## DFS
 - DFS tree

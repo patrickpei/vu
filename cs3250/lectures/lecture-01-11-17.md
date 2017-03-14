@@ -1,4 +1,4 @@
-## Lecture 1-11-17
+## Lecture 01-11-17
 
 ## Order Notation
 - Arithmetic (way of representation) to ignore constants

@@ -1,4 +1,4 @@
-# Lecture 1-13-17
+# Lecture 01-13-17
 
 ## Order Notation
 - lim log<sup>2</sup>n / n

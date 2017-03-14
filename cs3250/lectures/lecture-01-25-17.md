@@ -1,4 +1,4 @@
-# Lecture 1-25-17 (Digraphs)
+# Lecture 01-25-17 (Digraphs)
 
 ## Weak Connectivity
 - Underlying undirected graph is connected 

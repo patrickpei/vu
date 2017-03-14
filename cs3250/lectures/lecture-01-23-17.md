@@ -2,14 +2,13 @@
 
 ## Articulation Points & Biconnectivity
 - Articulation Point:
-    - Node such that if the node is removed, the graph is no longer connected
+    - Node such that if the node is removed, the graph is no longer Connected
 - G v. such that G | v is disconnected
 - Naive algorithm:
     - DFS/BFS on every node
     - Time: O(n(n + m))
 - DFS
     - calculate as back up
-    - 
 - LOW
 ```
 min(DFS#s of vertices adjacent to v, LOW(children of v))

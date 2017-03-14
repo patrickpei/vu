@@ -30,6 +30,6 @@
 - Since Prim's also runs in O(mn), this can also be improved
 - Not showing proof of correctness because it's the same proof as proving Prim's
 - Improving the bottleneck:
-    - Bottlneck is determining whether a new edge creates a cycle
+    - Bottleneck is determining whether a new edge creates a cycle
     - sets(trees)
     - 

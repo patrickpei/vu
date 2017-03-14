@@ -13,7 +13,7 @@
 - Graph methods
     - DFS
         - Uses: biconnectivity, articulation points, strongly connected components
-        - Very easiest: "automatic points", run an existing algorithm
+        - Easiest: "automatic points", run an existing algorithm
             - To separate passing / nonpassing grades
             - Just literally apply algorithm, ie give LOW values
     - BFS
