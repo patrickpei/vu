@@ -45,6 +45,10 @@
 )
 - [lecture-03-13-17](./lectures/lecture-03-13-17
 )
+- [lecture-03-15-17](./lectures/lecture-03-15-17
+)
+- [lecture-03-17-17](./lectures/lecture-03-17-17
+)
 
 ## Take Home Exams / Homework
 - [homework-1-blank](./homework/homework-1-blank.pdf)
