@@ -30,6 +30,8 @@
 - [lecture-03-24-17](./lectures/lecture-03-24-17)
 - [lecture-03-27-17](./lectures/lecture-03-27-17)
 - [lecture-03-29-17](./lectures/lecture-03-29-17)
+- [lecture-03-31-17](./lectures/lecture-03-31-17)
+- [lecture-04-03-17](./lectures/lecture-04-03-17)
 
 ## Take Home Exams / Homework
 - [homework-1-blank](./homework/homework-1-blank.pdf)
@@ -37,3 +39,4 @@
 - [homework-3-blank](./homework/homework-3-blank.pdf)
 - [homework-4-blank](./homework/homework-4-blank.pdf)
 - [homework-5-blank](./homework/homework-5-blank.pdf)
+- [homework-6-blank](./homework/homework-6-blank.pdf)
