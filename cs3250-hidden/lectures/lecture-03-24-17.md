@@ -20,7 +20,7 @@
                 - Have to shift elements 
                 - Sorting algorithms not always bounded on comparisons
 
- ## Floyd's Algorithm
+## Floyd's Algorithm
  - Advantage: negative weights without negative cycles
     - Will detect if Mii < 0
 - Runtime: O(n<sup>3</sup>)

@@ -38,6 +38,8 @@
 - [lecture-04-12-17](./lectures/lecture-04-12-17)
 - [lecture-04-14-17](./lectures/lecture-04-14-17)
 - [lecture-04-17-17](./lectures/lecture-04-17-17)
+- [lecture-04-21-17](./lectures/lecture-04-21-17)
+- [lecture-04-24-17](./lectures/lecture-04-24-17)
 
 ## Take Home Exams / Homework
 - [homework-1-blank](./homework/homework-1-blank.pdf)
