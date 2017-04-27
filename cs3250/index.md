@@ -43,8 +43,14 @@
 
 ## Take Home Exams / Homework
 - [homework-1-blank](./homework/homework-1-blank.pdf)
+- [homework-1](./homework/homework-1.pdf)
 - [homework-2-blank](./homework/homework-2-blank.pdf)
+- [homework-2](./homework/homework-2.pdf)
 - [homework-3-blank](./homework/homework-3-blank.pdf)
+- [homework-3](./homework/homework-3.pdf)
 - [homework-4-blank](./homework/homework-4-blank.pdf)
+- [homework-4](./homework/homework-4.pdf)
 - [homework-5-blank](./homework/homework-5-blank.pdf)
+- [homework-5](./homework/homework-5.pdf)
 - [homework-6-blank](./homework/homework-6-blank.pdf)
+- [homework-6](./homework/homework-6.pdf)
