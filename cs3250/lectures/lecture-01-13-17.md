@@ -1,7 +1,7 @@
 # Lecture 01-13-17
 
 ## Order Notation
-- lim log<sup>2</sup>n / n
+- ![f1] <!-- lim log<sup>2</sup>n / n -->
 - can use calculus
 
 ## Sum of 1 to n
@@ -41,3 +41,6 @@
     - Derive n(n + 1) / 2
     - Review notes and figure out ??
 - Completed:
+
+
+[f1]: http://chart.apis.google.com/chart?cht=tx&chl=lim\%20of%20\%20\frac{log(n^2)}{n}

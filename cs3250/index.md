@@ -28,6 +28,18 @@
 - [lecture-03-20-17](./lectures/lecture-03-20-17)
 - [lecture-03-22-17](./lectures/lecture-03-22-17)
 - [lecture-03-24-17](./lectures/lecture-03-24-17)
+- [lecture-03-27-17](./lectures/lecture-03-27-17)
+- [lecture-03-29-17](./lectures/lecture-03-29-17)
+- [lecture-03-31-17](./lectures/lecture-03-31-17)
+- [lecture-04-03-17](./lectures/lecture-04-03-17)
+- [lecture-04-05-17](./lectures/lecture-04-05-17)
+- [lecture-04-07-17](./lectures/lecture-04-07-17)
+- [lecture-04-10-17](./lectures/lecture-04-10-17)
+- [lecture-04-12-17](./lectures/lecture-04-12-17)
+- [lecture-04-14-17](./lectures/lecture-04-14-17)
+- [lecture-04-17-17](./lectures/lecture-04-17-17)
+- [lecture-04-21-17](./lectures/lecture-04-21-17)
+- [lecture-04-24-17](./lectures/lecture-04-24-17)
 
 ## Take Home Exams / Homework
 - [homework-1-blank](./homework/homework-1-blank.pdf)
