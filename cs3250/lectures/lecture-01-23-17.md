@@ -10,6 +10,7 @@
 - DFS
     - calculate as back up
 - LOW
+
 ```
 min(DFS#s of vertices adjacent to v, LOW(children of v))
 
