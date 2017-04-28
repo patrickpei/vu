@@ -14,6 +14,24 @@
 - [11](./assignments/assignment-11.pdf)
 
 
+## Reviewed Assignments (Final Exam)
+- 8
+    - Silly proofs
+    - Ambiguity in grammars
+    - Designing PDAs
+- 9
+    - Designing PDAs
+    - Tracing PDA execution
+- 10
+    - Eliminating epsilon productions
+    - Eliminating unit productions
+    - Eliminating useless symbols
+    - Putting grammar into Chomsky Normal Form
+- 11
+    - Following IDs of Turing machines
+    - Creating Turing machines
+
+
 ## Reviewed Assignments
 - 1 (essay)
 - 2
