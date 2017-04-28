@@ -1,5 +1,43 @@
 # CS3252: Theory of Automata - Professor Xenofon Koutsoukos
 
+## Completed Assignments
+- [1](./assignments/assignment-1.pdf)
+- [2](./assignments/assignment-2.pdf)
+- [3](./assignments/assignment-3.pdf)
+- [4](./assignments/assignment-4.pdf)
+- [5](./assignments/assignment-5.pdf)
+- [6](./assignments/assignment-6.pdf)
+- [7](./assignments/assignment-7.pdf)
+- [8](./assignments/assignment-8.pdf)
+- [9](./assignments/assignment-9.pdf)
+- [10](./assignments/assignment-10.pdf)
+- [11](./assignments/assignment-11.pdf)
+
+
+## Reviewed Assignments
+- 1 (essay)
+- 2
+    - Create DFA's
+    - Examine DFA's
+- 3 
+    - NFA to DFA conversion
+        - Lazy eval
+        - Describe its language
+- 4
+    - Design NFA's
+    - Epsilon closure
+    - e-NFA to DFA conversion
+- 5 
+    - Convert DFA to regex by state elimination method
+    - Convert regex to e-NFA's
+    - Eliminate e-transitions from e-NFA's
+    - Proving equality of regexps
+- 6
+    - Pumping lemma
+- 7
+    - Minimum-state equivalent DFA
+
+
 ## Lectures
 - 1
     - Logistics & goals
@@ -33,38 +71,5 @@
 ## MOOC (Stanford lectures)
 - https://www.youtube.com/channel/UCHuRxy3-6SNP2mQt2MOoWiw/videos
 
-## Reviewed Assignments
-- 1 (essay)
-- 2
-    - Create DFA's
-    - Examine DFA's
-- 3 
-    - NFA to DFA conversion
-        - Lazy eval
-        - Describe its language
-- 4
-    - Design NFA's
-    - Epsilon closure
-    - e-NFA to DFA conversion
-- 5 
-    - Convert DFA to regex by state elimination method
-    - Convert regex to e-NFA's
-    - Eliminate e-transitions from e-NFA's
-    - Proving equality of regexps
-- 6
-    - Pumping lemma
-- 7
-    - Minimum-state equivalent DFA
-
-## Completed Assignments
-- [1](./assignments/assignment-1.pdf)
-- [2](./assignments/assignment-2.pdf)
-- [3](./assignments/assignment-3.pdf)
-- [4](./assignments/assignment-4.pdf)
-- [5](./assignments/assignment-5.pdf)
-- [6](./assignments/assignment-6.pdf)
-- [7](./assignments/assignment-7.pdf)
 
 ## Questions
-- How to catch any number of something in DFA?
-    - Ex: 2.5.2c
