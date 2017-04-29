@@ -30,7 +30,7 @@ printf "\n" >> index.md
 # Take Home Exams / Homework
 printf "## Take Home Exams / Homework\n" >> index.md
 
-for pdf in homework/*.pdf
+for pdf in homework/*-blank.pdf
 do
     printf -- "- ["                                             >> index.md
     printf $pdf | cut -d'/' -f 2 | cut -d '.' -f 1 | tr -d '\n' >> index.md
