@@ -8,7 +8,7 @@ cp ~/Documents/Github/Vanderbilt/2017-spring/CS3250/lecture-notes/* ./lectures
 # Copy homework pdfs
 cd homework
 rm *.pdf
-find ~/Documents/Github/Vanderbilt/2017-spring/CS3250/homework -name \*.pdf -exec cp {} . \;
+find ~/Documents/Github/Vanderbilt/2017-spring/CS3250/homework -name \*-blank.pdf -exec cp {} . \;
 cd ..
 
 # README title
