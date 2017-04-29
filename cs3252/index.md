@@ -31,6 +31,7 @@
     - Following IDs of Turing machines
     - Creating Turing machines
 
+qrstuvwyz
 
 ## Reviewed Assignments
 - 1 (essay)

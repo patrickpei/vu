@@ -45,7 +45,7 @@
 
 
 ## Proof of Greedy Algorithms
-- Show that they never make a 1<sup>st</sub> mistake
+- Show that they never make a 1<sup>st</sup> mistake
 - Induction
     - Proof BWOC
 

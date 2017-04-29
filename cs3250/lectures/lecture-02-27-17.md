@@ -46,7 +46,7 @@
     - Stirling formula to solve log(n!)
     - What is log(n!)? Have to prove stirling's to use in this class
 - log(n!) = log(n * (n-1) * (n-2) * ... * 1) <= log(n<sup>n</sup>) <= nlogn
-- log(n!) >= log(n * (n-1) * ... (n/2)) >= log((n/2)<sup>(n/2)</sup) >= (n/2)log(n/2) >= (n/2)log(n) - n/2 = omega(nlogn)
+- log(n!) >= log(n * (n-1) * ... (n/2)) >= log of (n/2) <sup> (n/2) </sup >= (n/2)log(n/2) >= (n/2)log(n) - n/2 = omega(nlogn)
 - Expected:
     - Balanced tree: shortest length to a leave
     - Best expected: >= log(n!) = omega(nlogn)
