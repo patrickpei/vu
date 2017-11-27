@@ -1,4 +1,4 @@
-## MATH2420: MATH 2420-01 Methods of Ord Diff Eqs (2017F) - Scott Atkinson
+## MATH2420: Methods of Ord Diff Eqs - Scott Atkinson
 
 ### Quiz Schedule
 - 09/26/17: Big booper #1
