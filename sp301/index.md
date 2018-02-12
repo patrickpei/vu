@@ -5,7 +5,7 @@
 
 ### Tarea (by due date)
 - 02-12-18
-    - escribes en un papel, experencias en Madrid hasta ahora con preterito perfecto (1 pagina, paragrofos)
+    - escribes en un papel, experencias en Madrid hasta ahora con preterito perfecto (1 pagina, 2-3 paragrofos)
 - 02-07-18
     - study for quiz
     - pg138 #'s 3, 8, 9, 12, 14
