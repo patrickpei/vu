@@ -4,6 +4,9 @@
 - [02-07-18](./quizzes/02-07-18)
 
 ### Tarea (by due date)
+- 02-14-18
+    - bring packet, do #1, 2
+    - pg 151, #5, 6, 7, 12
 - 02-12-18
     - escribes en un papel, experencias en Madrid hasta ahora con preterito perfecto (1 pagina, 2-3 paragrofos)
 - 02-07-18
