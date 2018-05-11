@@ -2,7 +2,7 @@
 
 ### Final Exam
 - NLP
-    - complexity in mbiguity
+    - complexity in ambiguity
         1. phonology (flew, flu)
         2. lexical: noun / verb
         3. syntactic:
