@@ -1,16 +1,8 @@
 # Homework 1
 
 ## Free Response Question 2
-1. In the described process, the infection, as stated in step c, "creates system services", mimicking what
-non-malicious software would do. This mimicks the behavior of a virus since the software is tricking users 
-into thinking that executing the program is non-malicious in fact the opposite is true. Additionally,
-the behavior of this infection, as stated in step k, " proceeds to infect new machines in local network and internet through
-several ports (137,138, 129 and 445) through the exploit that takes advantage of SMB
-failure CVE-2017-0145 solved with the bulletin MS17-010 and that have not been
-patched". Counting on the fact that not all users would have updated or patched their machines with each
-new discovery of an exploit, the behavior of this infection mimicks that of a worm which tries to use a computer network
-in order to spread and replicate itself. Lastly, this obviously mimicks the behavior of ransomware as the
-encryption and asking for payment is extremely standard in that procedure.
+1. In the described process, the infection, as stated in step c, "creates system services", mimicking what non-malicious software would do. This mimicks the behavior of a virus since the software is tricking users into thinking that executing the program is non-malicious in fact the opposite is true. Additionally, the behavior of this infection, as stated in step k, " proceeds to infect new machines in local network and internet through several ports (137,138, 129 and 445) through the exploit that takes advantage of SMB failure CVE-2017-0145 solved with the bulletin MS17-010 and that have not been patched". Counting on the fact that not all users would have updated or patched their machines with each
+new discovery of an exploit, the behavior of this infection mimicks that of a worm which tries to use a computer network in order to spread and replicate itself. Lastly, this obviously mimicks the behavior of ransomware as the encryption and asking for payment is extremely standard in that procedure.
 
 2.  Characteristics
     - Viruses:
