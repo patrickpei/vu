@@ -11,5 +11,6 @@
     - [CS4287: Principles of Cloud Computing - Dr. Anirüddhā Gokhālé](./cs4287)
 - MATH
     - [MATH2420: Methods of Ord Diff Eqs - Scott Atkinson](./math2420)
+    - [MATH3670: Mathematical Data Science](./math3670)
 - SPANISH
     - [SP301: IES Abroad Spanish 301](./sp301)
