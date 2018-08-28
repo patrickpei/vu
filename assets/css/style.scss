@@ -3,6 +3,11 @@
 
 @import "{{ site.theme }}";
 
-.wrapper {
-  width: 900px !important;
+/* ----------- non-mobile ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) { 
+    .wrapper {
+      width: 900px !important;
+    }
 }
