@@ -20,6 +20,6 @@ do
     printf $homework | cut -d'/' -f 2 | cut -d'.' -f 1 | tr -d '\n'   >> index.md
     printf "](./"                                                    >> index.md
     printf $homework | cut -d '.' -f 1 | tr -d '\n'                   >> index.md
-    printf ")\n"                                                     >> index.md
+    printf ".pdf)\n"                                                     >> index.md
 done
 printf "\n" >> index.md

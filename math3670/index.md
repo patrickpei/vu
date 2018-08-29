@@ -10,5 +10,5 @@
   - [ ] Read carefully (with paper and pencil):  pages 18 and 19 of 2.4.
 
 ### Homework
-- [hw-1](./hw/hw-1)
+- [hw-1](./hw/hw-1.pdf)
 
